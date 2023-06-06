@@ -6,12 +6,12 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: 
-      POSTGRES_PASSWORD: 
-      POSTGRES_DB: 
+      POSTGRES_USER: lriwnl
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: teste
 
   adminer:
     image: adminer
     restart: always
     ports:
-      - 8080:8080
+      - 8080:8080 
